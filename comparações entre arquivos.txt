@@ -1,0 +1,6 @@
+Para comparar documentos (Códigos no caso) no Windows, no prompt, tem um programa nativo chamado FC (File Compare), 
+	sintaxe:
+		fc nome_do_arquivo1.tipo nome_do_arquivo2.tipo
+No Linux e MAC, tem o DIFF (difference)
+	sintaxe:
+		diff -u nome_do_arquivo1.tipo nome_do_arquivo2.tipo
