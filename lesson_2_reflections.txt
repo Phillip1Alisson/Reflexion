@@ -1,0 +1,50 @@
+﻿What happens when you initialize a repository? Why do you need to do it?
+  When I initialize a repository, a directory .git is create, his is metadatas.
+  Because I initialize to use git and all commands learn, also of has version control
+  of my files this repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+  Staging area is local when the user add files for commit,
+  Working directory is the local what is files staing, when modify her.
+  The repository is local where git control version of the files, after commit.
+  The staging area is very value for project, but It's security for create the commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+  I add file with the same feature. If I was doubt, to use git diff <without arguments>
+  for compare the files in working directory and staging area, or git diff --staged, to compare
+  staging area with last commit in repository.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+  A branch helpful when create the new functionality or modify a piece of the code,
+  something what modify the code main.
+  Use the commands git branch <without arguments>, visualize the branches exists and the branch I am.
+  git branch <name_new_branch> create the new branch.
+  git checkout <name_branch> Do I use other branch.
+
+How do the diagrams help you visualize the branch structure?
+  THe diagrams help me visualize the branch structure for analyze the commits common
+  between branchs, and, what was last commit association the branch master. Finally,
+  help the visualize the project.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+  The result is:
+   Updating old_commit ... new_commit
+   Fast-forward
+    files modify......
+    x file change, x insertion, x delete
+
+  Because, the representation in diagram, illustrate how we see the merge pratice.
+  With commands: git merge name_branch1 name_branch2... We can git checkout in branch
+  what merge, and, git merge name_branch2 name_branch3 .....
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+  aumatic merging: For me, the unique pros is what automatic. but, the all, not help nothing.
+
+Some commands:
+  git branch -d name_branch : Delete the branch
+  
