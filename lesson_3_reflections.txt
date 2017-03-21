@@ -36,4 +36,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I don't modify the branch main, for motive same, example: Don't modify the
+    kind the code, very more....
+    The benefits in integrity the code, and, don't break functionality the code...
